@@ -3,7 +3,7 @@ package schemas
 import "gorm.io/gorm"
 
 type Opening struct {
-	gorm.Modules
+	gorm.Model
 	Roles    string
 	Company  string
 	Location string
